@@ -4,7 +4,7 @@
 }
 
 .registration {
-  background-image: url('./image/golden-circles-bokeh.jpg');
+  background-image: url('./image/pink-black.jpg');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,10 +21,10 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-basis: 680px;
-  width: 680px;
+  width: 660px;
   background: #fff;
   border-radius: 20px;
+  margin: 50px 0;
 }
 
 form {
@@ -43,9 +43,10 @@ form span {
   font-size: 40px;
   color: #2c2a2a;
   line-height: 1.2;
+  margin: 50px 0 20px 0;
 }
 
-.btn-reg {
+.btn-social {
   display: flex;
   flex-direction: row;
   width: 80%;
@@ -66,6 +67,7 @@ button {
   margin: 10px;
   border-width: 1px 2px 2px 2px;
   border-color: #696868;
+  outline: none;
 }
 
 button:hover {
@@ -82,7 +84,7 @@ button:hover {
   border-radius: 10px;
   margin: 10px;
   border-color: #696868;
-  background-color: #a64bf4;
+  background-color: #cc46c5;
 }
 
 .facebook {
@@ -97,4 +99,113 @@ button:hover {
 
 img {
   margin: 0 10px;
+}
+
+.username {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 10px;
+}
+
+input {
+  font-family: COMIC SANS MS;
+  outline: none;
+  color: #2c2a2a;
+  font-size: 18px;
+  background-color: #f0f0f0;
+  width: 80%;
+  height: 60px;
+  padding: 0 10px;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+input:hover {
+  border-color: #bb5694;
+  border-width: 1px;
+}
+
+p {
+  font-family: COMIC SANS MS;
+  font-size: 20px;
+  color: #2c2a2a;
+  margin: 10px 40px;
+  display: flex;
+  align-self: flex-start;
+}
+
+a {
+  padding: 5px 5px;
+  color: #5c5b5b;
+  font-size: 15px;
+}
+
+a:hover {
+  color: #bb5694;
+}
+
+.btn-sign {
+  width: 77%;
+  margin: 30px 0 0 0;
+  background-color: #4b4b4b;
+  color: #ffffff;
+}
+
+.btn-sign:hover {
+  width: 77%;
+  border-color: #696868;
+  background-color: #cc46c5;
+  margin: 30px 0 0 0;
+}
+
+.sign-up {
+  margin: 50px 0 10px 0;
+}
+
+.sign-up p {
+  font-weight: 100;
+  color: #747474;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 680px;
+  border-radius: 20px;
+  margin: 50px 0 10px 0;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 0 15px;
+}
+
+li a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #fbc7f0;
+  font-size: 20px;
+  text-decoration: none;
 }
