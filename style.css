@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.registration {
+  background-image: url('./image/golden-circles-bokeh.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 680px;
+  width: 680px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 500px;
+  width: 500px;
+}
+
+form span {
+  text-align: center;
+  width: 100%;
+  font-family: COMIC SANS MS;
+  font-size: 40px;
+  color: #2c2a2a;
+  line-height: 1.2;
+}
+
+.btn-reg {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+button {
+  text-align: center;
+  font-family: COMIC SANS MS;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: calc((100% - 20px) / 2);
+  height: 70px;
+  border-radius: 10px;
+  border-width: 0;
+  margin: 10px;
+  border-width: 1px 2px 2px 2px;
+  border-color: #696868;
+}
+
+button:hover {
+  text-align: center;
+  font-family: COMIC SANS MS;
+  font-size: 20px;
+  color: #2c2a2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: calc((100% - 20px) / 2);
+  height: 70px;
+  border-radius: 10px;
+  margin: 10px;
+  border-color: #696868;
+  background-color: #a64bf4;
+}
+
+.facebook {
+  background-color: #3b5998;
+  color: #ffffff;
+}
+
+.google {
+  background-color: #ffffff;
+  color: #2c2a2a;
+}
+
+img {
+  margin: 0 10px;
+}
