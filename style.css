@@ -19,7 +19,6 @@
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 660px;
   background: #fff;
@@ -30,15 +29,11 @@ main {
 form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  flex-basis: 500px;
   width: 500px;
 }
 
 form span {
-  text-align: center;
-  width: 100%;
   font-family: COMIC SANS MS;
   font-size: 40px;
   color: #2c2a2a;
@@ -84,7 +79,12 @@ button:hover {
   border-radius: 10px;
   margin: 10px;
   border-color: #696868;
-  background-color: #cc46c5;
+  background-color: #f378ed;
+  transition: 0.5s;
+}
+
+button:not(:hover) {
+  transition: 0.5s;
 }
 
 .facebook {
@@ -155,9 +155,31 @@ a:hover {
   color: #bb5694;
 }
 
+.remember {
+  display: flex;
+  align-self: flex-start;
+  margin: 0 20px;
+  width: 80%;
+}
+
+.remember p {
+  font-family: COMIC SANS MS;
+  font-size: 15px;
+  color: #2c2a2a;
+  width: 100px;
+  margin: auto 10px;
+  display: flex;
+  align-self: flex-start;
+}
+
+.remember input {
+  width: 5%;
+  margin: 0 0 0 50px;
+}
+
 .btn-sign {
   width: 77%;
-  margin: 30px 0 0 0;
+  margin: 10px 0 0 0;
   background-color: #4b4b4b;
   color: #ffffff;
 }
@@ -165,8 +187,13 @@ a:hover {
 .btn-sign:hover {
   width: 77%;
   border-color: #696868;
-  background-color: #cc46c5;
-  margin: 30px 0 0 0;
+  background-color: #f378ed;
+  margin: 10px 0 0 0;
+  transition: 0.5s;
+}
+
+.btn-sign:not(:hover) {
+  transition: 0.5s;
 }
 
 .sign-up {
