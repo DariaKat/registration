@@ -1,3 +1,8 @@
+:root {
+  --font-reg: COMIC SANS MS;
+  --color-font: #2c2a2a;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -34,50 +39,47 @@ form {
 }
 
 form span {
-  font-family: COMIC SANS MS;
+  font-family: var(--font-reg);
   font-size: 40px;
-  color: #2c2a2a;
+  color: var(--color-font);
   line-height: 1.2;
   margin: 50px 0 20px 0;
 }
 
 .btn-social {
   display: flex;
-  flex-direction: row;
   width: 80%;
 }
 
 button {
-  text-align: center;
-  font-family: COMIC SANS MS;
+  font-family: var(--font-reg);
   font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
   width: calc((100% - 20px) / 2);
   height: 70px;
   border-radius: 10px;
-  border-width: 0;
   margin: 10px;
   border-width: 1px 2px 2px 2px;
-  border-color: #696868;
+  border-color: #cecece;
   outline: none;
+  background-color: #ffffff;
+  color: var(--color-font);
 }
 
 button:hover {
-  text-align: center;
-  font-family: COMIC SANS MS;
+  font-family: var(--font-reg);
   font-size: 20px;
-  color: #2c2a2a;
+  color: var(--color-font);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
   width: calc((100% - 20px) / 2);
   height: 70px;
   border-radius: 10px;
   margin: 10px;
+  border-width: 1px 2px 2px 2px;
   border-color: #696868;
   background-color: #f378ed;
   transition: 0.5s;
@@ -90,11 +92,6 @@ button:not(:hover) {
 .facebook {
   background-color: #3b5998;
   color: #ffffff;
-}
-
-.google {
-  background-color: #ffffff;
-  color: #2c2a2a;
 }
 
 img {
@@ -119,9 +116,9 @@ img {
 }
 
 input {
-  font-family: COMIC SANS MS;
+  font-family: var(--font-reg);
   outline: none;
-  color: #2c2a2a;
+  color: var(--color-font);
   font-size: 18px;
   background-color: #f0f0f0;
   width: 80%;
@@ -137,9 +134,9 @@ input:hover {
 }
 
 p {
-  font-family: COMIC SANS MS;
+  font-family: var(--font-reg);
   font-size: 20px;
-  color: #2c2a2a;
+  color: var(--color-font);
   margin: 10px 40px;
   display: flex;
   align-self: flex-start;
@@ -163,9 +160,9 @@ a:hover {
 }
 
 .remember p {
-  font-family: COMIC SANS MS;
+  font-family: var(--font-reg);
   font-size: 15px;
-  color: #2c2a2a;
+  color: var(--color-font);
   width: 100px;
   margin: auto 10px;
   display: flex;
@@ -192,10 +189,6 @@ a:hover {
   transition: 0.5s;
 }
 
-.btn-sign:not(:hover) {
-  transition: 0.5s;
-}
-
 .sign-up {
   margin: 50px 0 10px 0;
 }
@@ -206,13 +199,9 @@ a:hover {
 }
 
 footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 680px;
-  border-radius: 20px;
-  margin: 50px 0 10px 0;
+  margin: 40px 0 10px 0;
+  margin-top: auto;
 }
 
 footer ul {
